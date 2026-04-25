@@ -1,8 +1,9 @@
 # Codess
 Code for Certication in Machine Learning, UI/UX and DSA
 
-DSA
+#DSA
 Assignment 1 - (or) LeetCode 493
+
 Given an integer array, count all reverse pairs where nums[i] > 2 * nums[j] and i < j.
 Approach: Modified Merge Sort. During the merge step, both halves are already sorted — so two pointers are used to count valid pairs in O(n) per level instead of checking every combination.
 Time: O(n log n) | Space: O(n)
