@@ -2,7 +2,6 @@ class Solution:
     def detectCycle(self, head):
         slow = head
         fast = head
-
         # Phase 1: detect cycle 
         while fast and fast.next:
             slow = slow.next
