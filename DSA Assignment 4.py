@@ -10,6 +10,6 @@
                 current.append(remaining[i]) 
                 backtrack(current, remaining[:i] + remaining[i+1:])
                 current.pop()  # backtrack
-
+ 
         backtrack([], nums)
         return result 
