@@ -2,7 +2,7 @@
     def numIslands(self, grid):
         if not grid:
             return 0
-
+ 
         count = 0 
 
         def dfs(r, c):
