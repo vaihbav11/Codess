@@ -1,5 +1,6 @@
  class Solution:
-    def permute(self, nums):
+    def permute(self, nums): 
+     
         result = []
  
         def backtrack(current, remaining):
