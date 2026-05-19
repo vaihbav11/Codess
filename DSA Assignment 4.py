@@ -12,5 +12,5 @@
                 backtrack(current, remaining[:i] + remaining[i+1:])
                 current.pop()  # backtrack
  
-        backtrack([], nums)
+        backtrack([], nums) 
         return result 
