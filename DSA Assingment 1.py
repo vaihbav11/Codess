@@ -19,7 +19,7 @@
                     j += 1
                 self.count += j
  
-            # Normal merge step
+            # Normal merge step 
             merged = []
             li, ri = 0, 0
             while li < len(left) and ri < len(right):
