@@ -18,7 +18,7 @@ class Solution:
                 while j < len(right) and left[i] > 2 * right[j]:
                     j += 1
                 self.count += j
-
+ 
             # Normal merge step
             merged = []
             li, ri = 0, 0
