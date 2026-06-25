@@ -6,7 +6,7 @@
             if len(arr) <= 1:
                 return arr 
   
-            mid = len(arr) // 2 
+            mid = len(arr) // 2  
             left = merge_sort(arr[:mid]) 
  
 
