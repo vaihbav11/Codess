@@ -26,7 +26,7 @@
                 if left[li] <= right[ri]:
                     merged.append(left[li])
                     li += 1
-                else: 
+                else:  
                     merged.append(right[ri])
                     ri += 1
             merged.extend(left[li:])
