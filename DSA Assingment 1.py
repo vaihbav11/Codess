@@ -1,4 +1,4 @@
- class Solution:
+  class Solution:
     def reversePairs(self, nums):
         self.count = 0
 
