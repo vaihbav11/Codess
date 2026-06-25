@@ -20,7 +20,7 @@
                 self.count += j
  
             # Normal merge step 
-            merged = []
+            merged = [] 
             li, ri = 0, 0
             while li < len(left) and ri < len(right):
                 if left[li] <= right[ri]:
