@@ -2,7 +2,7 @@
     def minimumAddedCoins(self, coins, target):
         coins.sort()
         reach = 0 
-        added = 0 
+        added = 0  
         i = 0   
 
         while reach < target: 
