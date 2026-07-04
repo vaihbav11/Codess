@@ -9,7 +9,7 @@
             if i < len(coins) and coins[i] <= reach + 1:  
                 # this coin extends our reach
                 reach += coins[i]
-                i += 1
+                i += 1 
             else:
                 # gap found — add the missing coin
                 reach += reach + 1  # add coin of value (reach+1)
