@@ -1,5 +1,5 @@
   class Solution:
-    def minimumAddedCoins(self, coins, target):
+    def minimumAddedCoins(self, coins, target): 
         coins.sort()
         reach = 0 
         added = 0
