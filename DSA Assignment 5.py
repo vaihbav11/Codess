@@ -4,7 +4,7 @@
             return 0
  
         count = 0 
-
+ 
         def dfs(r, c):  
             # out of bounds or water or visited — stop
             if r < 0 or r >= len(grid) or c < 0 or c >= len(grid[0]) or grid[r][c] == '0':
