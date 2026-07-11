@@ -5,7 +5,7 @@ class Solution:
         # Phase 1: detect cycle 
         while fast and fast.next: 
             slow = slow.next
-            fast = fast.next.next
+            fast = fast.next.next 
             
             if slow == fast:
                 # Phase 2: find cycle start
