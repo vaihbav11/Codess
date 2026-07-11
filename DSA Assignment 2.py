@@ -1,4 +1,4 @@
-class Solution:
+ class Solution:
     def detectCycle(self, head):
         slow = head
         fast = head
