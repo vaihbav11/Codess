@@ -6,7 +6,7 @@
         while fast and fast.next: 
             slow = slow.next 
             fast = fast.next.next  
-            
+             
             if slow == fast:
                 # Phase 2: find cycle start
                 pointer = head
