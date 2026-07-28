@@ -3,7 +3,7 @@
      
         result = [] 
   
-        def backtrack(current, remaining):
+        def backtrack(current, remaining): 
             if not remaining: 
                 result.append(current[:])  
                 return
