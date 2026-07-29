@@ -5,7 +5,7 @@
   
         def backtrack(current, remaining): 
             if not remaining:  
-                result.append(current[:])  
+                result.append(current[:])   
                 return
             for i in range(len(remaining)): 
                 current.append(remaining[i]) 
